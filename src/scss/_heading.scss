@@ -11,6 +11,10 @@ header {
   img {
     height: fit-content;
     padding-right: 300px;
+
+    @media (max-width: 850px) {
+      padding-right: 30px;
+    }
   }
 }
 
@@ -21,6 +25,10 @@ nav {
     text-decoration: none;
     font-size: 20px;
     color: darkgray;
+
+    @media (max-width: 850px) {
+      padding: 15px;
+    }
   }
 
     :hover {
