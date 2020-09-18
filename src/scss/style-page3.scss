@@ -33,6 +33,10 @@ h3 {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
+
+  @media (max-width: 750px) {
+      flex-direction: column;
+  }
 }
 
 .coffee-container-element {
@@ -41,6 +45,10 @@ flex-direction: column;
 justify-content: flex-start;
 width: 47%;
 padding-bottom: 3em;
+
+@media (max-width: 750px) {
+    width: 100%;
+}
 }
 
 .coffee-container-element1__maintext {
@@ -63,8 +71,9 @@ padding-bottom: 3em;
     background-color: #f8f9fa;
     h5 {
         color: black;
-        font-size: 0,9em;
-        line-height: 1,2em;
+        font-weight: normal;
+        font-size: 0.9em;
+        line-height: 1.2em;
     }
     span {
         font-style: italic;
