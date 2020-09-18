@@ -1,0 +1,31 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 180px;
+  background-color: #f8f9fa;
+}
+
+.logo {
+  img {
+    height: fit-content;
+    padding-right: 300px;
+  }
+}
+
+nav {
+
+  a {
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: darkgray;
+  }
+
+    :hover {
+      color: black;
+    }
+
+}
+
