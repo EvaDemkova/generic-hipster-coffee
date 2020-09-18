@@ -1,4 +1,15 @@
-@import "colors.css";
-@import "heading.css";
-@import "main-page1.css";
-@import "footer.css"
+@import "colors";
+@import "heading";
+@import "main-page1";
+@import "footer";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+

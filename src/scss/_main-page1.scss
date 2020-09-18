@@ -1,0 +1,41 @@
+main {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+
+    .counter {
+        width: 100%;
+    }
+
+    h1, h2 {
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+
+    .important-info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 2em 0 2em 0;
+
+        &__container {
+            width: 70%;
+            p {
+                font-size: 0.9em; 
+                margin: 0;  
+
+            }
+
+            h3 {
+                text-transform: uppercase;
+                font-weight: 400;
+            }
+        }  
+    }
+
+    iframe {
+        width: 100%;
+    }
+}
+
