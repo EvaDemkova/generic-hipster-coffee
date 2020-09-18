@@ -1,37 +1,81 @@
 li {
     list-style: none;
+    font-size: 1.2em;
 }
 
-.lemonades {
+span {
+    font-size: 1.2em;
+}
+
+.lemonades, .espresso, .water, .iced, .hot, .filter_specialities {
     display: flex;
     flex-direction: column;
     width: 40%;
 
-}
-
-.water {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
+    @media (max-width: 600px) {
+        width: 100%;
+    }
 }
 
 h4 {
     text-transform: uppercase;
     font-weight: 400;
+    font-size: 1.3em;
+}
+
+h3 {
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 .menu__item {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: 0.8em 0 0.8em 0;
 }
 
 .menu-content2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
+    @media (max-width: 600px) {
+        flex-direction: column;
+    }
+}
+
+.menu-content1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .first-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+
+        @media (max-width: 600px) {
+            flex-direction: column;
+        }
+    }
+
+
+
+    .second-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+
+        @media (max-width: 600px) {
+            flex-direction: column;
+        }
+    }    
 }
 
 ul {
     padding: 0;
 }
+
