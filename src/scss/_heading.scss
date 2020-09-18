@@ -5,6 +5,11 @@ header {
   align-items: center;
   height: 180px;
   background-color: #f8f9fa;
+
+  @media (max-width: 500px) {
+    flex-direction: column;
+    height: 230px;
+  }
 }
 
 .logo {
@@ -14,6 +19,11 @@ header {
 
     @media (max-width: 850px) {
       padding-right: 30px;
+    }
+
+    @media (max-width: 500px) {
+      padding: 0;
+      margin-bottom: 1em;
     }
   }
 }

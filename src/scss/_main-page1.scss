@@ -4,6 +4,10 @@ main {
     width: 70%;
     margin: auto;
 
+        @media (max-width: 600px) {
+            width: 80%;
+        }
+
     .counter {
         width: 100%;
     }
@@ -13,11 +17,25 @@ main {
         font-weight: 400;
     }
 
+    h1 {
+        font-size: 3.2em;
+        margin-bottom: 0;
+    }
+
+    h2 {
+        font-size: 2.5em;
+    }
+
     .important-info {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         margin: 2em 0 2em 0;
+
+        @media (max-width: 600px) {
+            flex-direction: column;
+            margin: 1em 0 1em 0;
+        }
 
         &__container {
             width: 70%;
