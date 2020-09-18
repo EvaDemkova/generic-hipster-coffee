@@ -1,0 +1,16 @@
+@import "colors";
+@import "heading";
+@import "main-page1";
+@import "footer";
+@import "menu";
+@import "story";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
