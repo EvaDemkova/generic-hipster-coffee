@@ -1,0 +1,36 @@
+footer {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: $background-darkblue;
+  align-items: center;
+}
+
+.bottom-menu {
+    
+  a {
+    padding: 50px;
+    color: $color-blue;
+  }
+  :hover {
+      color: white;
+  }
+}
+
+.social-media {
+    h2 {
+        font-size: 20px;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    h5 {
+        text-align: center;
+        color: white;
+    }
+
+    span {
+        color: #1c74b4;
+    }
+}
