@@ -1,68 +1,63 @@
-
-h1 {
-    text-transform: uppercase;
-  }
-  
-  h3 {
-    font-weight: 400;
+h3 {
     font-size: 1.3em;
     line-height: 2em;
   
     span {
       color: #96d0ff;
       text-decoration: underline;
+      font-size: 1em;
     }
-  }
+} 
   
-  .coffee-container {
+.coffee-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-  
+
     @media (max-width: 750px) {
         flex-direction: column;
     }
-  }
+}
   
-  .coffee-container-element {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  width: 47%;
-  padding-bottom: 3em;
-  
-  @media (max-width: 750px) {
-      width: 100%;
-  }
-  }
-  
-  .coffee-container-element1__maintext {
-      background-color: #b6b8bb;
-      h2 {
+.coffee-container-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 47%;
+    padding-bottom: 3em;
+
+    @media (max-width: 750px) {
+        width: 100%;
+    }
+ 
+    &__maintext {
+        background-color: $coffee-article-bg;
+
+        h2 {
           padding-left: 1em;
           font-size: 1.6em;
-          color: grey;
-      }
-  }
+          color: $primary-grey;
+        }
+    }
   
-  .coffee-container-element1__image {
-      img {
+    &__image {
+         img {
           width: 100%;
-      }
-  }
+        }
+    }
   
-  .coffee-container-element1__bottomtext {
-      padding-left: 1em;
-      background-color: #f8f9fa;
-      h5 {
-          color: black;
-          font-weight: normal;
+    &__bottomtext {
+        padding: 0 1em 0 1em;
+        background-color: $background-white;
+        
+        h5 {
           font-size: 0.9em;
           line-height: 1.2em;
-      }
-      span {
+        }
+      
+        span {
           font-style: italic;
-      }
-  }
-  
+        }
+    }
+}

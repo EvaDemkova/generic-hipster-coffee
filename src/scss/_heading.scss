@@ -34,7 +34,7 @@ nav {
     padding: 20px;
     text-decoration: none;
     font-size: 20px;
-    color: darkgray;
+    color: $primary-grey;
 
     @media (max-width: 850px) {
       padding: 15px;
@@ -44,6 +44,5 @@ nav {
     :hover {
       color: black;
     }
-
 }
 
